@@ -1,0 +1,381 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 03:04:40
+* VERSION: 3.7.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.1.32 | SAPI: fpm-fcgi
+PHP MEMORY:	5000M | SUHOSIN: disabled
+SERVER:		Apache
+DOC ROOT:	/home/sparxia/d73000miles.com
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://d73000miles.com/dpro-installer/main.installer.php?archive=%2Fhome%2Fsparxia%2Fd73000miles.com%2F20191024_d73000atlantic_0a2250f7350e4a417725_20191024120057_archive.zip&bootloader=installer.php&
+SAFE MODE :	0
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20191024_d73000atlantic_0a2250f7350e4a417725_20191024120057_archive.zip
+SIZE:	168.99MB
+
+>>> Starting ZipArchive Unzip
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 19844
+    [filename] => /home/sparxia/d73000miles.com/20191024_d73000atlantic_0a2250f7350e4a417725_20191024120057_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2019-10-24 15:04:45
+<<< ZipArchive Unzip Complete: true
+Resetting permissions
+
+WEB SERVER CONFIGURATION FILE STATUS:
+- .htaccess was reset and a backup made to .htaccess-191024150440.orig.
+- .user.ini file was not reset or backed up.
+- web.config file was not reset or backed up.
+
+STEP-1 COMPLETE @ 03:04:45 - RUNTIME: 5.1617 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 03:22:31
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.2.27 -- Build Server: 10.2.27
+FILE SIZE:	database.sql (5.49MB) - installer-data.sql (5.49MB)
+TIMEOUT:	28800
+MAXPACK:	268435456
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/sparxia/d73000miles.com/installer-data.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	12429
+
+wpd73000_commentmeta: (0)
+wpd73000_comments: (2)
+wpd73000_duplicator_packages: (0)
+wpd73000_duplicator_pro_entities: (5)
+wpd73000_duplicator_pro_packages: (0)
+wpd73000_fb3d_pages: (11)
+wpd73000_give_commentmeta: (0)
+wpd73000_give_comments: (0)
+wpd73000_give_donationmeta: (69)
+wpd73000_give_donormeta: (3)
+wpd73000_give_donors: (1)
+wpd73000_give_formmeta: (81)
+wpd73000_give_logmeta: (0)
+wpd73000_give_logs: (0)
+wpd73000_give_sequential_ordering: (3)
+wpd73000_give_sessions: (1)
+wpd73000_icl_content_status: (0)
+wpd73000_icl_core_status: (0)
+wpd73000_icl_flags: (64)
+wpd73000_icl_languages: (64)
+wpd73000_icl_languages_translations: (4096)
+wpd73000_icl_locale_map: (0)
+wpd73000_icl_message_status: (0)
+wpd73000_icl_node: (0)
+wpd73000_icl_reminders: (0)
+wpd73000_icl_string_positions: (0)
+wpd73000_icl_string_status: (0)
+wpd73000_icl_string_translations: (0)
+wpd73000_icl_strings: (0)
+wpd73000_icl_translate: (0)
+wpd73000_icl_translate_job: (0)
+wpd73000_icl_translation_batches: (0)
+wpd73000_icl_translation_status: (0)
+wpd73000_icl_translations: (0)
+wpd73000_layerslider: (0)
+wpd73000_layerslider_revisions: (0)
+wpd73000_links: (0)
+wpd73000_ms_snippets: (0)
+wpd73000_options: (292)
+wpd73000_postmeta: (733)
+wpd73000_posts: (189)
+wpd73000_revslider_css: (109)
+wpd73000_revslider_css_bkp: (47)
+wpd73000_revslider_layer_animations: (0)
+wpd73000_revslider_layer_animations_bkp: (0)
+wpd73000_revslider_navigations: (0)
+wpd73000_revslider_navigations_bkp: (0)
+wpd73000_revslider_sliders: (0)
+wpd73000_revslider_sliders_bkp: (0)
+wpd73000_revslider_slides: (0)
+wpd73000_revslider_slides_bkp: (0)
+wpd73000_revslider_static_slides: (0)
+wpd73000_revslider_static_slides_bkp: (0)
+wpd73000_smush_dir_images: (0)
+wpd73000_snippets: (4)
+wpd73000_term_relationships: (12)
+wpd73000_term_taxonomy: (4)
+wpd73000_termmeta: (0)
+wpd73000_terms: (4)
+wpd73000_usermeta: (29)
+wpd73000_users: (1)
+wpd73000_vp_id: (859)
+wpstg0_commentmeta: (0)
+wpstg0_comments: (2)
+wpstg0_fb3d_pages: (11)
+wpstg0_give_commentmeta: (0)
+wpstg0_give_comments: (0)
+wpstg0_give_donationmeta: (0)
+wpstg0_give_donormeta: (0)
+wpstg0_give_donors: (0)
+wpstg0_give_formmeta: (74)
+wpstg0_give_logmeta: (0)
+wpstg0_give_logs: (0)
+wpstg0_give_sequential_ordering: (0)
+wpstg0_give_sessions: (0)
+wpstg0_icl_content_status: (0)
+wpstg0_icl_core_status: (0)
+wpstg0_icl_flags: (64)
+wpstg0_icl_languages: (64)
+wpstg0_icl_languages_translations: (4096)
+wpstg0_icl_locale_map: (0)
+wpstg0_icl_message_status: (0)
+wpstg0_icl_node: (0)
+wpstg0_icl_reminders: (0)
+wpstg0_icl_string_positions: (0)
+wpstg0_icl_string_status: (0)
+wpstg0_icl_string_translations: (0)
+wpstg0_icl_strings: (0)
+wpstg0_icl_translate: (0)
+wpstg0_icl_translate_job: (0)
+wpstg0_icl_translation_batches: (0)
+wpstg0_icl_translation_status: (0)
+wpstg0_icl_translations: (0)
+wpstg0_layerslider: (0)
+wpstg0_layerslider_revisions: (0)
+wpstg0_links: (0)
+wpstg0_ms_snippets: (0)
+wpstg0_options: (324)
+wpstg0_postmeta: (177)
+wpstg0_posts: (53)
+wpstg0_revslider_css: (109)
+wpstg0_revslider_css_bkp: (47)
+wpstg0_revslider_layer_animations: (0)
+wpstg0_revslider_layer_animations_bkp: (0)
+wpstg0_revslider_navigations: (0)
+wpstg0_revslider_navigations_bkp: (0)
+wpstg0_revslider_sliders: (1)
+wpstg0_revslider_sliders_bkp: (0)
+wpstg0_revslider_slides: (1)
+wpstg0_revslider_slides_bkp: (0)
+wpstg0_revslider_static_slides: (0)
+wpstg0_revslider_static_slides_bkp: (0)
+wpstg0_term_relationships: (9)
+wpstg0_term_taxonomy: (2)
+wpstg0_termmeta: (0)
+wpstg0_terms: (2)
+wpstg0_usermeta: (18)
+wpstg0_users: (1)
+wpstg0_vp_id: (545)
+Removed '24' cache/transient rows
+
+INSERT DATA RUNTIME: 12.7081 sec.
+STEP-2 COMPLETE @ 03:22:44 - RUNTIME: 12.7540 sec.
+
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:23:59
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+Subsite id=-1
+wpd73000_commentmeta^ (0)
+wpd73000_comments~ (2)
+wpd73000_duplicator_packages^ (0)
+wpd73000_duplicator_pro_entities~ (5)
+wpd73000_duplicator_pro_packages^ (0)
+wpd73000_fb3d_pages~ (11)
+wpd73000_give_commentmeta^ (0)
+wpd73000_give_comments^ (0)
+wpd73000_give_donationmeta~ (69)
+wpd73000_give_donormeta~ (3)
+wpd73000_give_donors~ (1)
+wpd73000_give_formmeta~ (81)
+wpd73000_give_logmeta^ (0)
+wpd73000_give_logs^ (0)
+wpd73000_give_sequential_ordering~ (3)
+wpd73000_give_sessions~ (1)
+wpd73000_icl_content_status^ (0)
+wpd73000_icl_core_status^ (0)
+wpd73000_icl_flags~ (64)
+wpd73000_icl_languages~ (64)
+wpd73000_icl_languages_translations~ (4096)
+wpd73000_icl_locale_map^ (0)
+wpd73000_icl_message_status^ (0)
+wpd73000_icl_node^ (0)
+wpd73000_icl_reminders^ (0)
+wpd73000_icl_string_positions^ (0)
+wpd73000_icl_string_status^ (0)
+wpd73000_icl_string_translations^ (0)
+wpd73000_icl_strings^ (0)
+wpd73000_icl_translate^ (0)
+wpd73000_icl_translate_job^ (0)
+wpd73000_icl_translation_batches^ (0)
+wpd73000_icl_translation_status^ (0)
+wpd73000_icl_translations^ (0)
+wpd73000_layerslider^ (0)
+wpd73000_layerslider_revisions^ (0)
+wpd73000_links^ (0)
+wpd73000_ms_snippets^ (0)
+wpd73000_options~ (292)
+wpd73000_postmeta~ (733)
+wpd73000_posts~ (189)
+wpd73000_revslider_css~ (109)
+wpd73000_revslider_css_bkp~ (47)
+wpd73000_revslider_layer_animations^ (0)
+wpd73000_revslider_layer_animations_bkp^ (0)
+wpd73000_revslider_navigations^ (0)
+wpd73000_revslider_navigations_bkp^ (0)
+wpd73000_revslider_sliders^ (0)
+wpd73000_revslider_sliders_bkp^ (0)
+wpd73000_revslider_slides^ (0)
+wpd73000_revslider_slides_bkp^ (0)
+wpd73000_revslider_static_slides^ (0)
+wpd73000_revslider_static_slides_bkp^ (0)
+wpd73000_smush_dir_images^ (0)
+wpd73000_snippets~ (4)
+wpd73000_term_relationships~ (12)
+wpd73000_term_taxonomy~ (4)
+wpd73000_termmeta^ (0)
+wpd73000_terms~ (4)
+wpd73000_usermeta~ (29)
+wpd73000_users~ (1)
+wpd73000_vp_id~ (859)
+wpstg0_commentmeta^ (0)
+wpstg0_comments~ (2)
+wpstg0_fb3d_pages~ (11)
+wpstg0_give_commentmeta^ (0)
+wpstg0_give_comments^ (0)
+wpstg0_give_donationmeta^ (0)
+wpstg0_give_donormeta^ (0)
+wpstg0_give_donors^ (0)
+wpstg0_give_formmeta~ (74)
+wpstg0_give_logmeta^ (0)
+wpstg0_give_logs^ (0)
+wpstg0_give_sequential_ordering^ (0)
+wpstg0_give_sessions^ (0)
+wpstg0_icl_content_status^ (0)
+wpstg0_icl_core_status^ (0)
+wpstg0_icl_flags~ (64)
+wpstg0_icl_languages~ (64)
+wpstg0_icl_languages_translations~ (4096)
+wpstg0_icl_locale_map^ (0)
+wpstg0_icl_message_status^ (0)
+wpstg0_icl_node^ (0)
+wpstg0_icl_reminders^ (0)
+wpstg0_icl_string_positions^ (0)
+wpstg0_icl_string_status^ (0)
+wpstg0_icl_string_translations^ (0)
+wpstg0_icl_strings^ (0)
+wpstg0_icl_translate^ (0)
+wpstg0_icl_translate_job^ (0)
+wpstg0_icl_translation_batches^ (0)
+wpstg0_icl_translation_status^ (0)
+wpstg0_icl_translations^ (0)
+wpstg0_layerslider^ (0)
+wpstg0_layerslider_revisions^ (0)
+wpstg0_links^ (0)
+wpstg0_ms_snippets^ (0)
+wpstg0_options~ (324)
+wpstg0_postmeta~ (177)
+wpstg0_posts~ (53)
+wpstg0_revslider_css~ (109)
+wpstg0_revslider_css_bkp~ (47)
+wpstg0_revslider_layer_animations^ (0)
+wpstg0_revslider_layer_animations_bkp^ (0)
+wpstg0_revslider_navigations^ (0)
+wpstg0_revslider_navigations_bkp^ (0)
+wpstg0_revslider_sliders~ (1)
+wpstg0_revslider_sliders_bkp^ (0)
+wpstg0_revslider_slides~ (1)
+wpstg0_revslider_slides_bkp^ (0)
+wpstg0_revslider_static_slides^ (0)
+wpstg0_revslider_static_slides_bkp^ (0)
+wpstg0_term_relationships~ (9)
+wpstg0_term_taxonomy~ (2)
+wpstg0_termmeta^ (0)
+wpstg0_terms~ (2)
+wpstg0_usermeta~ (18)
+wpstg0_users~ (1)
+wpstg0_vp_id~ (545)
+--------------------------------------
+Search1:	'http://projects.sparxia.world/D73000' 
+Change1:	'https://d73000miles.com' 
+Search2:	'http%3A%2F%2Fprojects.sparxia.world%2FD73000' 
+Change2:	'https%3A%2F%2Fd73000miles.com' 
+Search3:	'"http:\/\/projects.sparxia.world\/D73000"' 
+Change3:	'"https:\/\/d73000miles.com"' 
+Search4:	'/home/sparxia/projects.sparxia.world/D73000' 
+Change4:	'/home/sparxia/d73000miles.com' 
+Search5:	'\/home\/sparxia\/projects.sparxia.world\/D73000' 
+Change5:	'\/home\/sparxia\/d73000miles.com' 
+Search6:	'%2Fhome%2Fsparxia%2Fprojects.sparxia.world%2FD73000%2F' 
+Change6:	'%2Fhome%2Fsparxia%2Fd73000miles.com%2F' 
+Search7:	'\home\sparxia\projects.sparxia.world\D73000' 
+Change7:	'/home/sparxia/d73000miles.com' 
+Search8:	'//projects.sparxia.world/D73000' 
+Change8:	'//d73000miles.com' 
+Search9:	'\/\/projects.sparxia.world\/D73000' 
+Change9:	'\/\/d73000miles.com' 
+Search10:	'%2F%2Fprojects.sparxia.world%2FD73000' 
+Change10:	'%2F%2Fd73000miles.com' 
+SCANNED:	Tables:119 	|	 Rows:12283 	|	 Cells:53636 
+UPDATED:	Tables:3 	|	 Rows:97 	|	 Cells:103 
+ERRORS:		0 
+RUNTIME:	0.409900 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - '/home/sparxia/d73000miles.com/wp-config-arc.txt'
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Removed '0' schedule storage items
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 03:24:00 - RUNTIME: 0.4148 sec. 
+
+

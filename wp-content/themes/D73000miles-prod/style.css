@@ -1,0 +1,262 @@
+/*
+Theme Name: D73000miles Production
+Theme URI: https://D73000miles.com
+Author: D73000miles
+Author URI: https://D73000miles.com
+Description: D73000miles production
+Template: betheme2
+Version: 1.6.2
+*/
+
+:root {
+    --d73000-orange: #e96243;
+    --d73000-dark-blue: #142e51;
+    --d73000-blue: #00a6d0;
+}
+
+/* This makes the footer top border transparent */
+#Footer .footer_copy {
+	border-top: 1px solid rgba(255,255,255,0);
+}
+
+
+
+.about-me-heading .fancy_heading { text-align: left; }
+
+.countdown-home .downcount .number-wrapper { color: #e96243; }
+
+#the-boat h2 { color: #fff; }
+
+#Content .wp-my-instagram img { width: 320px; height: 320px; }
+
+.header-title .inside h2 { color: #fff; text-transform: uppercase; line-height: 60px; font-weight: 500; }
+
+.countdown-title .inside h2 { color: #fff; }
+
+#home-video { min-height: 700px; }
+
+.section-heading { color: #fff; text-transform: uppercase;  }
+
+/* Resizing the Brand Video */
+
+#home-video {
+    height: 450px;
+}
+
+.sponsor-form { background: white; padding: 5%; }
+
+/* Increasing the font-size of the footer icons to 2x */
+
+#Footer .footer_copy .social li a { font-size: 30px; }
+
+/* Removing the padding around highlighted elements */
+
+.highlight { padding: 0; font-weight: 600; }
+
+/* Change color of inner page headings */
+
+.sub-page h2 {  color: #e96243; }
+
+.sub-page h4 {  color: #e96243; text-transform: uppercase; }
+
+/* Alter the background positioning of image to show the top bar better */
+
+#header-cover-pic { background-position-y: -50px !important; }
+
+.header-title.dark .inside h2 { color: #000;  }
+
+#give-recurring-form .form-row label, form.give-form .form-row label, form[id*=give-form] .form-row label { color: #000; }
+
+[id*=give-form] fieldset { color: #000; }
+
+[id*=give-form] div.give-form-content-wrap {
+    color: #000;
+}
+
+/* Visible text on status pages of donation form */
+
+.give_error, .give_success, .give_warning { color: #000; }
+
+/* Padding to language */
+
+.wpml-ls-menu-item .wpml-ls-flag { padding-right: 10px !important; }
+
+/* Give background color to header title */
+
+.header-title-toughest {
+    padding: 15px;
+    background: rgba(21,49,86,0.5);
+}
+
+/* Language padding */
+
+li.menu-item.menu-item-gtranslate {
+    padding-right: 0.5em;
+}
+
+/* Remove arrow keys of logo slider */
+
+.logo-slider-home .clients_slider .clients_slider_header {
+   display: none; 
+}
+
+.logo-slider-home  ul.clients .client_wrapper {
+   background: #fff; 
+}
+
+.logo-slider-home {
+   margin-top: 40px;
+}
+
+.logo-slider-home .blog_slider_header .slick-arrow {
+    background: var(--d73000-dark-blue);
+    color: white;
+}
+
+/* Resize the sponsor form */
+
+.sponsor-form.one.column { width: auto; } 
+
+.style-simple .timeline_items > li h3 { color: deepskyblue; }
+
+/* Remove state field in donation form */
+
+#give-card-state-wrap { display: none; }
+
+/* Arrange form fields */
+
+#give_checkout_user_info  p.form-row-wide { clear: none; }
+
+#give_checkout_user_info p:nth-child(even) { width: 48%; float: left; }
+
+#give_checkout_user_info p:nth-child(odd) { width: 48%; float: right; }
+
+#give_cc_address p.form-row-wide { clear: none; }
+
+#give_cc_address p:nth-child(even) { width: 48%; float: left; }
+
+#give_cc_address p:nth-child(odd) { width: 48%; float: right; }
+
+/* Social feed */
+
+.ff-stream#ff-stream-1 {
+    background-color: transparent;
+}
+
+/* Stats section */
+
+#stats h2 {
+    margin-bottom: 0;
+}
+
+#stats .column {
+    margin-bottom: 20px;
+}
+
+/* Infobox section */
+
+#facts-challenge .infobox {
+    background: transparent;
+}
+
+#facts-challenge .infobox ul li {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+#facts-challenge .infobox ul li:before {
+    display: none;
+}
+
+#facts-challenge .column_info_box:nth-child(3) ul li {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+#facts-challenge .column_info_box:nth-child(4) ul li {
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+#facts-challenge .column_info_box:nth-child(3) ul li:nth-child(odd) {
+    border-right: 5px solid var(--d73000-orange);
+}
+
+#facts-challenge .column_info_box:nth-child(3) ul li:nth-child(even) {
+    border-right: 5px solid var(--d73000-blue);
+}
+
+#facts-challenge .column_info_box:nth-child(4) ul li:nth-child(odd) {
+    border-left: 5px solid var(--d73000-orange);
+}
+
+#facts-challenge .column_info_box:nth-child(4) ul li:nth-child(even) {
+    border-left: 5px solid var(--d73000-blue);
+}
+
+/* The boat - section */
+
+#the-boat .hover_box .hover-box-details {
+    background: var(--d73000-orange);
+    width: 450px;
+    min-height: 250px;
+    padding: 20px;
+    line-height: 1.25;
+    border: 10px solid white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    position: absolute;
+    bottom: -20%;
+    right: -45px;
+}
+
+#the-boat .hover_box h4 {
+    color: white;
+}
+
+#the-boat .hover_box:hover .hover-box-details {
+    opacity: 1;
+}
+
+/* Video section */
+
+#d73000-video {
+    height: 800px;
+}
+
+/* 3D Icons */
+
+#stats .icon-3d img {
+    max-width: 75%;
+}
+
+.fancy {
+    animation: anim1 .7s ease-out;
+  }
+  
+  @keyframes anim1 {
+    0% {
+      opacity: 0;
+      transform: translateX(-30rem) rotate(-45deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) rotate(0deg);
+    }
+  }
+  
+  @keyframes anim2 {
+    0% {
+      opacity: 0;
+      transform: translateX(30rem) rotate(45deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) rotate(0deg);
+    }
+  }
