@@ -25,16 +25,16 @@ include_once __DIR__ . '/wp-config.common.php';
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'db3malgqee8rzf' );
+define( 'DB_NAME', "wp738" );
 
 /** MySQL database username */
-define( 'DB_USER', 'uwxxp4aipo6pt' );
+define( 'DB_USER', "wp738" );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'wkb5eixicgun' );
+define( 'DB_PASSWORD', "35B4p.)QzS" );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', "localhost" );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );

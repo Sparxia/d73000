@@ -1,0 +1,1580 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 10:14:33
+* VERSION: 1.4.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.20                                |7.3.11
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-06-29 10:09:17
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 1.4.1
+DB__________________: 5.7.32
+DB TABLES___________: 146
+DB ROWS_____________: 95,535
+DB FILE SIZE________: 20.18MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.11 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11
+DOC ROOT____________: "C:/Program Files/Ampps/www/d73000"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://127.0.0.1/d73000/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/Program Files/Ampps/www/d73000/20191024_d73000atlantic_[HASH]_20210629100917_archive.zip"
+SIZE________________: 547.41MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/Program Files/Ampps/www/d73000/20191024_d73000atlantic_[HASH]_20210629100917_archive.zip"
+SIZE________________: 547.41MBFile timestamp set to Current: 2021-06-29 10:14:47
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 10:14:47 - RUNTIME: 13.2769 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:16:43
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.18 -- Build Server: 5.7.32
+FILE SIZE:	dup-database__[HASH].sql (14.97MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/Program Files/Ampps/www/d73000/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+**ERROR** Query size limit [length=1048576] [sql=...]
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+DATABASE: table "wpd73000_wsal_options" row count mismatch; expected "32" in database"31"
+ERROR: Database Table row count verification was failed for table(s): wpd73000_wsal_options
+ERRORS FOUND:	1
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	1261
+
+wpd73000_actionscheduler_actions: (0)
+wpd73000_actionscheduler_claims: (0)
+wpd73000_actionscheduler_groups: (1)
+wpd73000_actionscheduler_logs: (0)
+wpd73000_commentmeta: (271)
+wpd73000_comments: (91)
+wpd73000_duplicator_packages: (0)
+wpd73000_duplicator_pro_entities: (5)
+wpd73000_duplicator_pro_packages: (0)
+wpd73000_fb3d_pages: (11)
+wpd73000_ff_cache: (1)
+wpd73000_ff_comments: (0)
+wpd73000_ff_image_cache: (0)
+wpd73000_ff_options: (4)
+wpd73000_ff_post_media: (0)
+wpd73000_ff_posts: (20)
+wpd73000_ff_snapshots: (0)
+wpd73000_ff_streams: (1)
+wpd73000_ff_streams_sources: (1)
+wpd73000_give_commentmeta: (16)
+wpd73000_give_comments: (96)
+wpd73000_give_donationmeta: (910)
+wpd73000_give_donormeta: (258)
+wpd73000_give_donors: (32)
+wpd73000_give_formmeta: (174)
+wpd73000_give_log: (31)
+wpd73000_give_migrations: (7)
+wpd73000_give_revenue: (35)
+wpd73000_give_sequential_ordering: (35)
+wpd73000_give_sessions: (0)
+wpd73000_icl_content_status: (0)
+wpd73000_icl_core_status: (0)
+wpd73000_icl_flags: (64)
+wpd73000_icl_languages: (64)
+wpd73000_icl_languages_translations: (4096)
+wpd73000_icl_locale_map: (2)
+wpd73000_icl_message_status: (0)
+wpd73000_icl_node: (0)
+wpd73000_icl_reminders: (0)
+wpd73000_icl_string_positions: (0)
+wpd73000_icl_string_status: (0)
+wpd73000_icl_string_translations: (0)
+wpd73000_icl_strings: (0)
+wpd73000_icl_translate: (56)
+wpd73000_icl_translate_job: (14)
+wpd73000_icl_translation_batches: (2)
+wpd73000_icl_translation_downloads: (0)
+wpd73000_icl_translation_status: (17)
+wpd73000_icl_translations: (218)
+wpd73000_layerslider: (0)
+wpd73000_layerslider_revisions: (0)
+wpd73000_links: (0)
+wpd73000_ms_snippets: (0)
+wpd73000_options: (587)
+wpd73000_postmeta: (1840)
+wpd73000_posts: (295)
+wpd73000_rank_math_analytics_objects: (44)
+wpd73000_rank_math_internal_links: (5)
+wpd73000_rank_math_internal_meta: (26)
+wpd73000_revslider_css: (109)
+wpd73000_revslider_css_bkp: (47)
+wpd73000_revslider_layer_animations: (0)
+wpd73000_revslider_layer_animations_bkp: (0)
+wpd73000_revslider_navigations: (0)
+wpd73000_revslider_navigations_bkp: (0)
+wpd73000_revslider_sliders: (0)
+wpd73000_revslider_sliders_bkp: (0)
+wpd73000_revslider_slides: (0)
+wpd73000_revslider_slides_bkp: (0)
+wpd73000_revslider_static_slides: (0)
+wpd73000_revslider_static_slides_bkp: (0)
+wpd73000_smush_dir_images: (0)
+wpd73000_snippets: (5)
+wpd73000_stream: (11)
+wpd73000_stream_meta: (111)
+wpd73000_term_relationships: (27)
+wpd73000_term_taxonomy: (18)
+wpd73000_termmeta: (0)
+wpd73000_terms: (18)
+wpd73000_tm_taskmeta: (1)
+wpd73000_tm_tasks: (1)
+wpd73000_ts_locations: (0)
+wpd73000_ts_tracks: (0)
+wpd73000_usermeta: (86)
+wpd73000_users: (2)
+wpd73000_vp_id: (1911)
+wpd73000_wsal_metadata: (67857)
+wpd73000_wsal_occurrences: (10320)
+wpd73000_wsal_options: (31)
+wpstg0_commentmeta: (0)
+wpstg0_comments: (2)
+wpstg0_fb3d_pages: (11)
+wpstg0_give_commentmeta: (0)
+wpstg0_give_comments: (0)
+wpstg0_give_donationmeta: (0)
+wpstg0_give_donormeta: (0)
+wpstg0_give_donors: (0)
+wpstg0_give_formmeta: (74)
+wpstg0_give_logmeta: (0)
+wpstg0_give_logs: (0)
+wpstg0_give_sequential_ordering: (0)
+wpstg0_give_sessions: (0)
+wpstg0_icl_content_status: (0)
+wpstg0_icl_core_status: (0)
+wpstg0_icl_flags: (64)
+wpstg0_icl_languages: (64)
+wpstg0_icl_languages_translations: (4096)
+wpstg0_icl_locale_map: (0)
+wpstg0_icl_message_status: (0)
+wpstg0_icl_node: (0)
+wpstg0_icl_reminders: (0)
+wpstg0_icl_string_positions: (0)
+wpstg0_icl_string_status: (0)
+wpstg0_icl_string_translations: (0)
+wpstg0_icl_strings: (0)
+wpstg0_icl_translate: (0)
+wpstg0_icl_translate_job: (0)
+wpstg0_icl_translation_batches: (0)
+wpstg0_icl_translation_status: (0)
+wpstg0_icl_translations: (0)
+wpstg0_layerslider: (0)
+wpstg0_layerslider_revisions: (0)
+wpstg0_links: (0)
+wpstg0_ms_snippets: (0)
+wpstg0_options: (324)
+wpstg0_postmeta: (177)
+wpstg0_posts: (53)
+wpstg0_revslider_css: (109)
+wpstg0_revslider_css_bkp: (47)
+wpstg0_revslider_layer_animations: (0)
+wpstg0_revslider_layer_animations_bkp: (0)
+wpstg0_revslider_navigations: (0)
+wpstg0_revslider_navigations_bkp: (0)
+wpstg0_revslider_sliders: (1)
+wpstg0_revslider_sliders_bkp: (0)
+wpstg0_revslider_slides: (1)
+wpstg0_revslider_slides_bkp: (0)
+wpstg0_revslider_static_slides: (0)
+wpstg0_revslider_static_slides_bkp: (0)
+wpstg0_term_relationships: (9)
+wpstg0_term_taxonomy: (2)
+wpstg0_termmeta: (0)
+wpstg0_terms: (2)
+wpstg0_usermeta: (18)
+wpstg0_users: (1)
+wpstg0_vp_id: (545)
+Removed '56' cache/transient rows
+
+INSERT DATA RUNTIME: 6.5382 sec.
+STEP-2 COMPLETE @ 10:16:50 - RUNTIME: 6.8056 sec.
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] QUERY ERROR: size limit
+
+-----------------------
+[WARNING] Database Table row count validation was failed
+	SECTIONS: database
+	LONG MSG: DATABASE: table "wpd73000_wsal_options" row count mismatch; expected "32" in database"31"
+
+
+====================================
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:17:18
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "D73000 Atlantic"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/customer/www/d73000miles.sparxia.tech/public_html"
+path_new______________: "C:/Program Files/Ampps/www/d73000"
+siteurl_______________: "http://127.0.0.1/d73000"
+url_old_______________: "https://d73000miles.sparxia.tech"
+url_new_______________: "http://127.0.0.1/d73000"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wpd73000_actionscheduler_actions"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_actionscheduler_claims"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_actionscheduler_groups"_________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_actionscheduler_logs"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_commentmeta"____________________________[ROWS:   271][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_comments"_______________________________[ROWS:    91][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_duplicator_packages"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_duplicator_pro_entities"________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_duplicator_pro_packages"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_fb3d_pages"_____________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_ff_cache"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_ff_comments"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_ff_image_cache"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_ff_options"_____________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_ff_post_media"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_ff_posts"_______________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_ff_snapshots"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_ff_streams"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_ff_streams_sources"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_give_commentmeta"_______________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_give_comments"__________________________[ROWS:    96][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_give_donationmeta"______________________[ROWS:   910][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_give_donormeta"_________________________[ROWS:   258][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_give_donors"____________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_give_formmeta"__________________________[ROWS:   174][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_give_log"_______________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_give_migrations"________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_give_revenue"___________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_give_sequential_ordering"_______________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_give_sessions"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_icl_content_status"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_icl_core_status"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_icl_flags"______________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_icl_languages"__________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_icl_languages_translations"_____________[ROWS:  4096][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_icl_locale_map"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_icl_message_status"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_icl_node"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_icl_reminders"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_icl_string_positions"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_icl_string_status"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_icl_string_translations"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_icl_strings"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_icl_translate"__________________________[ROWS:    56][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_icl_translate_job"______________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_icl_translation_batches"________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_icl_translation_downloads"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_icl_translation_status"_________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_icl_translations"_______________________[ROWS:   218][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_layerslider"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_layerslider_revisions"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_links"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_ms_snippets"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_options"________________________________[ROWS:   587][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_postmeta"_______________________________[ROWS:  1840][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_posts"__________________________________[ROWS:   295][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_rank_math_analytics_objects"____________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_rank_math_internal_links"_______________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_rank_math_internal_meta"________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_revslider_css"__________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_revslider_css_bkp"______________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_revslider_layer_animations"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_revslider_layer_animations_bkp"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_revslider_navigations"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_revslider_navigations_bkp"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_revslider_sliders"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_revslider_sliders_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_revslider_slides"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_revslider_slides_bkp"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_revslider_static_slides"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_revslider_static_slides_bkp"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_smush_dir_images"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_snippets"_______________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_stream"_________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_stream_meta"____________________________[ROWS:   111][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_term_relationships"_____________________[ROWS:    27][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_term_taxonomy"__________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_termmeta"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_terms"__________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_tm_taskmeta"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_tm_tasks"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_ts_locations"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_ts_tracks"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpd73000_usermeta"_______________________________[ROWS:    86][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_users"__________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_vp_id"__________________________________[ROWS:  1911][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_wsal_metadata"__________________________[ROWS: 67857][PG:  20][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_wsal_occurrences"_______________________[ROWS: 10320][PG:   3][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpd73000_wsal_options"___________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_commentmeta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_comments"_________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_fb3d_pages"_______________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_give_commentmeta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_give_comments"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_give_donationmeta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_give_donormeta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_give_donors"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_give_formmeta"____________________________[ROWS:    74][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_give_logmeta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_give_logs"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_give_sequential_ordering"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_give_sessions"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_content_status"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_core_status"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_flags"________________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_icl_languages"____________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_icl_languages_translations"_______________[ROWS:  4096][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_icl_locale_map"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_message_status"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_node"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_reminders"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_string_positions"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_string_status"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_string_translations"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_strings"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_translate"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_translate_job"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_translation_batches"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_translation_status"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_icl_translations"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_layerslider"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_layerslider_revisions"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_links"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_ms_snippets"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_options"__________________________________[ROWS:   324][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_postmeta"_________________________________[ROWS:   177][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_posts"____________________________________[ROWS:    53][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_revslider_css"____________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_revslider_css_bkp"________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_revslider_layer_animations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_revslider_layer_animations_bkp"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_revslider_navigations"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_revslider_navigations_bkp"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_revslider_sliders"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_revslider_sliders_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_revslider_slides"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_revslider_slides_bkp"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_revslider_static_slides"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_revslider_static_slides_bkp"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_term_relationships"_______________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_term_taxonomy"____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_termmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpstg0_terms"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_usermeta"_________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_users"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+
+EVALUATE TABLE: "wpstg0_vp_id"____________________________________[ROWS:   545][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/d73000miles.sparxia.tech/public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  2:"\/home\/customer\/www\/d73000miles.sparxia.tech\/public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fd73000miles.sparxia.tech%2Fpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  4:"\home\customer\www\d73000miles.sparxia.tech\public_html" => "C:/Program Files/Ampps/www/d73000"
+	SEARCH  5:"\\home\\customer\\www\\d73000miles.sparxia.tech\\public_html" => "C:\/Program Files\/Ampps\/www\/d73000"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Cd73000miles.sparxia.tech%5Cpublic_html" => "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fd73000"
+	SEARCH  7:"//d73000miles.sparxia.tech" ======================> "//127.0.0.1/d73000"
+	SEARCH  8:"\/\/d73000miles.sparxia.tech" ====================> "\/\/127.0.0.1\/d73000"
+	SEARCH  9:"%2F%2Fd73000miles.sparxia.tech" ==================> "%2F%2F127.0.0.1%2Fd73000"
+	SEARCH 10:"https://127.0.0.1/d73000" ========================> "http://127.0.0.1/d73000"
+	SEARCH 11:"https:\/\/127.0.0.1\/d73000" =====================> "http:\/\/127.0.0.1\/d73000"
+	SEARCH 12:"https%3A%2F%2F127.0.0.1%2Fd73000" ================> "http%3A%2F%2F127.0.0.1%2Fd73000"
+--------------------------------------
+SCANNED:	Tables:146 	|	 Rows:95485 	|	 Cells:411856 
+UPDATED:	Tables:4 	|	 Rows:129 	|	 Cells:131 
+ERRORS:		0 
+RUNTIME:	6.079100 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate really-simple-ssl/rlrsssl-really-simple-ssl.php
+Plugin(s) listed here are deactivated: really-simple-ssl/rlrsssl-really-simple-ssl.php
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:17:24 - RUNTIME: 6.1572 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] STEP 2 - INSTALL NOTICES (1)
+	SECTIONS: database
+	LONG MSG:         Queries that error during the deploy step are logged to the <a href="./dup-installer-log__786fdd3-29100917.txt" target="dup-installer">install-log.txt</a> file and
+and marked with an **ERROR** status.   If you experience a few errors (under 5), in many cases they can be ignored as long as your site is working correctly.
+However if you see a large amount of errors or you experience an issue with your site then the error messages in the log file will need to be investigated.
+<br/><br/>
+
+<b>COMMON FIXES:</b>
+<ul>
+    <li>
+        <b>Unknown collation:</b> See Online FAQ:
+        <a href="https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-110-q" target="_blank">What is Compatibility mode & 'Unknown collation' errors?</a>
+    </li>
+    <li>
+        <b>Query Limits:</b> Update MySQL server with the <a href="https://dev.mysql.com/doc/refman/5.5/en/packet-too-large.html" target="_blank">max_allowed_packet</a>
+        setting for larger payloads.
+    </li>
+</ul>
+
+-----------------------
+[WARNING] Some errors in the database (3)
+	SECTIONS: database
+
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] QUERY ERROR: size limit
+	SECTIONS: database
+	LONG MSG: **ERROR** Query size limit [length=1048576] [sql=...]
+
+-----------------------
+[WARNING] Database Table row count validation was failed
+	SECTIONS: database
+	LONG MSG: DATABASE: table "wpd73000_wsal_options" row count mismatch; expected "32" in database"31"
+
+
+-----------------------
+[WARNING] Deactivated Plugin:  Really Simple SSL
+	SECTIONS: general
+	LONG MSG: This plugin has been deactivated since this migration is going from SSL (HTTPS) to Non-SSL (HTTP).  This will allow you to login to your WordPress Admin.   To reactivate the plugin please go to the admin plugin page.
+
+====================================

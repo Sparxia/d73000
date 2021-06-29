@@ -1,30 +1,13 @@
-# HTTPS forced by SG-Optimizer
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    
-    RewriteCond %{HTTP:X-Forwarded-Proto} !https
-    RewriteCond %{HTTPS} off
-    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-</IfModule>
-# END HTTPS
-
-
+#This Apache config file was created by Duplicator Installer on 2021-06-29 10:17:18.
+#The original can be found in archived file with the name .htaccess__[HASH]
 
 # BEGIN WordPress
-# Die Anweisungen (Zeilen) zwischen „BEGIN WordPress“ und „END WordPress“ sind
-# dynamisch generiert und sollten nur über WordPress-Filter geändert werden.
-# Alle Änderungen an den Anweisungen zwischen diesen Markierungen werden überschrieben.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /
+RewriteBase /d73000/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+RewriteRule . /d73000/index.php [L]
 </IfModule>
-
 # END WordPress
-# SGO Unset Vary
-  Header unset Vary
-# SGO Unset Vary END
