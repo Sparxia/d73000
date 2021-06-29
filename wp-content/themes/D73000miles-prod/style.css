@@ -260,3 +260,7 @@ li.menu-item.menu-item-gtranslate {
       transform: scale(1) rotate(0deg);
     }
   }
+
+  .github-test {
+      content: "Push! Push!"
+  }
